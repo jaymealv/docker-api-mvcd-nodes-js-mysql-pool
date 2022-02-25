@@ -1,0 +1,29 @@
+[33mcommit 18be51e4e714375fac8a78c61d83005142e2aa56[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jayme Alvares <jaymealv@gmail.com>
+Date:   Fri Feb 25 15:19:47 2022 -0300
+
+    Update README.db
+
+[33mcommit 2dfe49f410b33db8091ef9e37f5e4578595742e2[m
+Author: jayme Alvares <jaymealv@gmail.com>
+Date:   Fri Feb 25 15:18:25 2022 -0300
+
+    docker com api nodes mysql
+
+[33mcommit 064e9a0a90767b9fbaff5311e3769a35725296c3[m
+Author: jayme Alvares <jaymealv@gmail.com>
+Date:   Fri Feb 25 15:14:22 2022 -0300
+
+    docker com api nodes mysql
+
+[33mcommit 7fe0856c82e375e5afd89c42fe3d19738894ed31[m
+Author: Jayme Alvares <jaymealv@gmail.com>
+Date:   Fri Feb 25 15:00:13 2022 -0300
+
+    Update README.db
+
+[33mcommit 9e23a3235916367278235725660428734b7747dc[m
+Author: jayme Alvares <jaymealv@gmail.com>
+Date:   Fri Feb 25 14:50:31 2022 -0300
+
+    docker com api nodes mysql
