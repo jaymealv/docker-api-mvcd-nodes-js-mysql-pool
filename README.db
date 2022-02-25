@@ -3,3 +3,7 @@ Atualiazação
 
 #Adicionei o docker para esta API nodes mysql MVCD em 25/02/2022
 
+#Exemplos:
+localhost:4000/history/maria
+localhost:4000/history/anton
+localhost:4000/history/resp
