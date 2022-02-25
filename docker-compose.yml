@@ -1,0 +1,47 @@
+version: "3.7"
+services:
+  api-db:
+    image: mysql
+      container_image: api-mysql-container
+      enviroment:
+        MYSQL_ROOT_PASSWORD: root
+      volumes:
+      - ./data/db:/var/lib/mysql
+      restart:
+        always
+      ports:
+      - "3306:3306"    
+
+    api-node:
+      build: "./api'"
+      container_name: api-node-container_image
+      restart: always
+      volumes:
+        - ./api:/home/jayme/nodes/app
+      ports:
+      - "4000:4000"
+    depends_on: 
+      - api-db
+    #command: --default_authentication_plugin=mysql_native_password
+    webphp:
+      build: "php:7.4-apache'"
+      container_name: api-php-container
+      restart: always
+      volumes:
+        - ./website:var/www/html
+      ports:
+      - "8888:80"
+    depends_on: 
+      - db
+      - api-node
+  
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - mysql
+    ports:
+      - '8080:80'
+    restart: always
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306      
